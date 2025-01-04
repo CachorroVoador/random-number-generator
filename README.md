@@ -1,8 +1,8 @@
 # random-number-generator
-Random Number generator without repeating that i made using node.js. I ported to others languages too
+C# version
 
 # Build
-on node.js, just open terminal and run npm i
+Just open terminal and run `dotnet build`
 
 # Run
-on node.js, just open terminal and run npm start
+Just open terminal and run `dotnet run` or run the executable
