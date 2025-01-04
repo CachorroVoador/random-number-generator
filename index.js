@@ -12,7 +12,7 @@ const writeFile = (data) => {
 }
 
 if(!fs.existsSync(filePath)){
-    writeFile();
+    writeFile([]);
 }
 fs.readFile(filePath, 'utf8', function readFileCallback(err, data){
     if (err){
