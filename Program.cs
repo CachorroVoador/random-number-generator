@@ -5,6 +5,9 @@ class Program {
     const string FilePath = "./numbers.json";
     static void Main(){
         List<int> numbers = ReadJson();
+        if(numbers.Count >= MaxNumber){
+            return;
+        }
         int randomNumber = GenerateRandomNumber();
         numbers.Add(randomNumber);
         WriteToJson(numbers);
