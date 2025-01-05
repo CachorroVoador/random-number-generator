@@ -1,8 +1,11 @@
 # random-number-generator
-Random Number generator without repeating that i made using node.js. I ported to others languages too
+Cpp version
 
 # Build
-on node.js, just open terminal and run npm i
+Idk
+use g++ and then run `g++ main.cpp -o main`
 
 # Run
-on node.js, just open terminal and run npm start
+just execute the executable after building
+
+credits to https://github.com/nlohmann/json
