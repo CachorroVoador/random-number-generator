@@ -1,5 +1,7 @@
 # Logs
 numbers.json
+main
+.vscode/
 
 logs
 *.log
